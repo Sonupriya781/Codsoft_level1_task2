@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="public/main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="heading">Portfolio</div> 
+        <span class="sideMenuButton" 
+            onclick="openNavbar()"> 
+            ☰ 
+        </span> 
+  
+        <div class="navbar"> 
+            <ul> 
+                <li><a href="#Home">Home</a></li> 
+                <li><a href="#About">About</a></li> 
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Courses">Achievements and Courses</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+            </ul> 
+        </div> 
+    </nav> 
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()"> 
+            ❌ 
+        </a>
+        <a href="#">Home</a> 
+        <a href="#">About</a> 
+        <a href="#">Skills</a>
+        <a href="#">Projects</a> 
+        <a href="#">Achievements and Courses</a>
+        <a href="#">Contact Me</a>
+    </div>
+    <div class="Home" id="Home"> 
+        <div class="side1"> 
+            <h1>Heyaa I'm Sonu
+                <i class="fa fa-handshake-o" style="font-size:36px;color:rgb(73, 72, 72)"></i>
+            </h1>
+            <h3>A Full Stack Software Developer 
+                <i class="fa fa-desktop" style="font-size:24px"></i>
+            </h3>
+            <span class="contactButtons">
+                <a href="https://wa.me/<919611003280>"><i class="fa fa-whatsapp" style="font-size:36px;color: green"></i></a>
+                <a href="https://www.sonupriya781@gmail.com"><i class="fa fa-envelope" style="font-size:36px;color:rgb(231, 6, 44) "></i></a>
+                <a href="https://www.linkedin.com/in/sonupriyakj"><i class="fa fa-linkedin-square" style="font-size:36px;color: rgb(30, 16, 236);"></i></a>
+                <a href="https://github.com/Sonupriya781"><i class="fa fa-github" style="font-size:36px;color:black"></i></a>
+            </span>
+            <button> 
+                <a href= 
+                  "public/Resume.pdf" download> 
+                  <i class="fa fa-download" style="font-size:24px;color:black"></i> Resume 
+                </a> 
+            </button> 
+        </div> 
+        <div class="side2"> 
+            <img src= 
+            "public/images/img1.jpg" width="750px" height="500px"/>
+        </div> 
+    </div> 
+    
+    <section id="About">
+    <h1 >&#9684;About</h1>
+    <div class="About" >
+     <div class="left">
+        <img src="public/images/me.jpg" alt="me" width="200px" height="auto"/>
+     </div>
+     <div class="right reveal fade-bottom">
+        <h2><i class="fa fa-user" style="font-size:32px"></i> PERSONAL PROFILE</h2>
+        <p>Motivated front-end web developer with a Bachelor's degree in Computer Science. Continuous in 
+        learning and acquiring skills through online courses. 
+        Currently with a passion for Digital Marketing and 
+        seeking opportunities to participate in front-end 
+        projects.</p>
+        <hr/>
+        <h2><i class="fa fa-graduation-cap" style="font-size:32px"></i>EDUCATION</h2>
+        <p>Bachelor of Engineering in Computer Science and Engineering, 
+            Global Academy of Technology, 
+            Bengaluru.</p>
+        <span class="cgpa">8.87 CGPA(upto 5th Semester)</span>
+     </div>
+    </div>
+    </section>
+    <section id="Skills">
+        <h1>&#9681;Technical Skills</h1>
+        <div class="Skills reveal fade-bottom">
+            <div class="container">
+                
+                <div class="topic reveal fade-left">
+                    <p>Programming Languages<p>
+                </div>
+                <div class="content reveal fade-right">
+                   <p>Java, Python, C/C++.</p> 
+                </div>
+            </div>
+            <div class="container">
+                
+                <div class="topic reveal fade-left">
+                    <p>Web Frameworks</p>
+                </div>
+                <div class="content reveal fade-right">
+                    <p>Bootstrap, Rest API, React.js.</p>
+                </div>   
+            </div>
+            <div class="container">
+                
+                <div class="topic reveal fade-left">
+                    <p>College Coursework</p>
+                </div>
+                <div class="content reveal fade-right">
+                  <p> Artificial Intelligence, Data structures and algorithms.</p> 
+                </div>   
+            </div>
+            <div class="container">
+                
+                <div class="topic reveal fade-left">
+                    <p>Web Technologies</p>
+                </div>
+                <div class="content reveal fade-right">
+                  <p>HTML5, CSS, MongoDB, phpMyAdmin, MySQL, javascript, Node.js.</p>  
+                </div>   
+            </div>
+        </div>
+    </section>
+    <section id="Projects">
+        <h1>&#9685;Projects</h1>
+        <div class="Projects reveal fade-bottom">
+            <div class="box"> 
+                <img src="public/images/vehicle.jpeg" alt="Vehicle Identification System" width="260px" height="240px"/>
+                <div class="title"> 
+                    <a href="" target="_blank"> 
+                        Vehicle Identification System using Java 
+                    </a> 
+                </div> 
+                <p> 
+                    Java project that manages vehicle data, with features for adding, updating, viewing, and deleting information. It uses OOP and MySQL for 
+                    a scalable system, simplifying vehicle data management for individuals 
+                    and organizations. 
+                </p> 
+            </div> 
+            <div class="box">
+                <img src="public/images/cancer.png" alt="Classification of Skin Cancer using CNN" width="260px" height="240px"/> 
+                <div class="title"> 
+                    <a href="" target="_blank"> 
+                        Classification of Skin Cancer using CNN
+                    </a> 
+                </div> 
+                <p> 
+                    CNN is used for feature extraction, and classification is done by using the 
+                    fully connected Artificial Neural Network (ANN). The result is in the form 
+                    of Multi Classification among different classes of cancer. Main classes 
+                    being Benign and malignant. 
+                </p> 
+            </div>
+            <div class="box">
+                <img src="public/images/courier.webp" alt="Courier Management System" width="260px" height="240px"/>
+                <div class="title"> 
+                    <a href="" target="_blank"> 
+                        Courier Management System
+                    </a> 
+                </div> 
+                <p> 
+                    This project deals with the Courier Management System. The system 
+                    is used for daily activities such as booking a courier, courier history; 
+                    maintain staff details, branch details. It is very difficult to do this process 
+                    manually. 
+                </p> 
+            </div>
+        </div>
+    </section>
+    <section id="Courses">
+        <h1><span style='font-size:56px;'>&#9679;</span>Achievements and Courses</h1>
+        <div class="Courses reveal fade-bottom">
+         <div class="square">
+            <div id="anim">
+                <a href=""><span class="tooltip" data-tooltip="Certificate">?</span></a>
+                </div>
+            <img src="public/images/cisco.png" alt="cisco logo" width="150px" height="120px"/> 
+            <h3>Introduction to Data Science, 
+                Cisco Networking Academy</h3>
+         </div>
+         <div class="square">
+            <div id="anim">
+                <a href="public/digitalgarage_certificate.pdf"><span class="tooltip" data-tooltip="Certificate">?</span></a>
+                </div>
+            <img src="public/images/google.png" alt="google logo" width="150px" height="120px"/> 
+            <h3>Fundamentals of Digital Marketing, 
+                Google Digital Garage</h3>
+         </div>
+         <div class="square">
+            <div id="anim">
+                <a href="public/CloudComputing Certificate.pdf"><span class="tooltip" data-tooltip="Certificate">?</span></a>
+                </div>
+            <img src="public/images/udemy.png" alt="udemy logo" width="150px" height="120px"/> 
+            <h3>Cloud Computing with AWS for Beginners, 
+                Udemy</h3>
+         </div>
+         <div class="square">
+            <div id="anim">
+               <a href=""><span class="tooltip" data-tooltip="Certificate">?</span></a>
+                </div>
+            <img src="public/images/udemy.png" alt="udemy logo" width="150px" height="120px"/> 
+            <h3>Web Development Bootcamp, Udemy
+            </h3>
+         </div>
+        </div>
+    </section>
+    <footer id="Contact">
+        <div class="Contact">
+            <h2>Contact Me</h2>
+        </div>
+        <hr/>
+        <div class="basic">
+            <span><i class="material-icons bounce" style="font-size:36px;color: purple;">place</i>Bengaluru,Karnataka,India</span>
+            <span><i class="material-icons bounce" style="font-size:36px">phone_android</i>+919611003280</span>
+            <span><a href="https://wa.me/<919611003280>"><i class="fa fa-whatsapp bounce" style="font-size:36px;color: green"></i></a></span>
+            <span><a href="https://www.sonupriya781@gmail.com"><i class="fa fa-envelope bounce" style="font-size:36px;color:rgb(231, 6, 44) "></i></a></span>
+            <span><a href="https://www.linkedin.com/in/sonupriyakj"><i class="fa fa-linkedin-square bounce" style="font-size:36px;color: rgb(30, 16, 236);"></i></a></span>
+            <span><a href="https://github.com/Sonupriya781"><i class="fa fa-github bounce" style="font-size:36px;color:black"></i></a></span>
+        </div>
+    </footer>
+    <div class="last">
+        <p>&#169;, Created by Sonu</p>
+    </div>
+<script src="index.js" charset="UTF-8"></script>
+<script src="scroll-out.js"></script>
+<script type="text/javascript">
+    ScrollOut({
+        targets: 'h1,h2,h3,p'
+    })
+</script>
+</body>
+</html>
